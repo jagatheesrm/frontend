@@ -5,6 +5,9 @@ body {
   padding: 0;
   
 }
+a{
+  text-decoration: none;
+}
 
 .container {
   max-width: 960px;
@@ -32,31 +35,31 @@ p {
   margin-bottom: 20px;
 }
 
-.projects {
+.task {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-top: 40px;
 }
 
-.project-card {
+.task-card {
   background-color: #ae00ff;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.project-title {
+.task-title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.project-description {
+.task-description {
   margin-bottom: 10px;
 }
 
-.contact-info {
+.task-info {
   margin-top: 40px;
 }
 
